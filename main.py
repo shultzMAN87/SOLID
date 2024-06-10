@@ -32,7 +32,7 @@ if __name__ == '__main__':
 
     print(f'Что я сегодня сделал:\n{j}')
 
-    filepath = r'C:\Users\Pavlyushkevich.KE\Desktop\journal.txt'
+    filepath = r'C:\Users\Константин\Desktop\journal.txt'
 
     PersistenceManager.save_to_file(j, filepath)
 
