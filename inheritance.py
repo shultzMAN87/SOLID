@@ -40,7 +40,7 @@ class Shape:
         return f'x={self.x} y={self.y} z={self.z} colour={self.color} material={self.material} count={Shape.count}'
 
 
-# Класс-наследник
+# класс-наследник
 class Cylinder(Shape):
     def __init__(self, x, y, z, color, material, radius=1, height=1):
         super().__init__(x, y, z, color, material)
