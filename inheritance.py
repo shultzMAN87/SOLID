@@ -50,6 +50,10 @@ class Cylinder(Shape):
     # def __str__(self):
     #     return super().__str__()
 
+    # переопределение метода
+    def get_basic_point(self):
+        return {'x': self.x, 'y': self.y}
+
     def increase_count(self):
         Shape.count += 1
 
@@ -57,7 +61,12 @@ class Cylinder(Shape):
         return pow(self.radius, 2) * math.pi * self.height
 
 
-# Создание экземпляра класса Cylinder
+# создание класса Shape
+shape = Shape(8, 7, 15, 'red', 'wood')
+print(shape)
+print(shape.get_basic_point())
+
+# создание экземпляра класса Cylinder
 cylinder = Cylinder(5, 5, 3, 'blue', 'steel')
 cylinder.increase_count() # метод базового класса, не реализован в наследнике
 print(cylinder.get_basic_point())

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69a9968-6731-4f4d-a533-8dde82e05d28" name="Changes" comment="third">
-      <change afterPath="$PROJECT_DIR$/inheritance.py" afterDir="false" />
+    <list default="true" id="c69a9968-6731-4f4d-a533-8dde82e05d28" name="Changes" comment="fouth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,14 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719177354147</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fouth">
+      <option name="closed" value="true" />
+      <created>1719694318816</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1719694318816</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="second" />
     <MESSAGE value="third" />
-    <option name="LAST_COMMIT_MESSAGE" value="third" />
+    <MESSAGE value="fouth" />
+    <option name="LAST_COMMIT_MESSAGE" value="fouth" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
