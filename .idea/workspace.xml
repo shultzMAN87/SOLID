@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69a9968-6731-4f4d-a533-8dde82e05d28" name="Changes" comment="fouth//">
+    <list default="true" id="c69a9968-6731-4f4d-a533-8dde82e05d28" name="Changes" comment="fouth">
+      <change afterPath="$PROJECT_DIR$/DependingInvNew.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritanceNew.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SOLID.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SOLID.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DependingInv.py" beforeDir="false" afterPath="$PROJECT_DIR$/DependingInv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +56,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.DIP.executor": "Run",
-    "Python.DependingInv.executor": "Run",
-    "Python.ISP.executor": "Run",
-    "Python.SRP.executor": "Run",
-    "Python.connectDB.executor": "Run",
-    "Python.inheritance.executor": "Run",
-    "Python.interfaces.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Константин/PycharmProjects/SOLID",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.DIP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DepemdingInvNew.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DependingInv.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DependingInvNew.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ISP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.SRP.executor&quot;: &quot;Run&quot;,
+    &quot;Python.connectDB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritanceNew.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interfaces.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Константин/PycharmProjects/SOLID&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Константин\PycharmProjects\SOLID" />
@@ -187,23 +195,7 @@
       <option name="project" value="LOCAL" />
       <updated>1719739971666</updated>
     </task>
-    <task id="LOCAL-00010" summary="fouth">
-      <option name="closed" value="true" />
-      <created>1719741485102</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1719741485102</updated>
-    </task>
-    <task id="LOCAL-00011" summary="fouth//">
-      <option name="closed" value="true" />
-      <created>1721048131039</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1721048131039</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,8 +203,7 @@
     <MESSAGE value="second" />
     <MESSAGE value="third" />
     <MESSAGE value="fouth" />
-    <MESSAGE value="fouth//" />
-    <option name="LAST_COMMIT_MESSAGE" value="fouth//" />
+    <option name="LAST_COMMIT_MESSAGE" value="fouth" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

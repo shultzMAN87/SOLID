@@ -37,4 +37,5 @@ class Scanner(PrinterInterface):
 
 
 printer = Printer()
-scanner = Scanner()
+printer.scaning()
+# scanner = Scanner()

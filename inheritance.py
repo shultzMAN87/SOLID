@@ -6,15 +6,15 @@ class Shape:
     count = 0
 
     # Это конструктор класса
-    def __init__(self, x, y, z, color, material):
-        self.x = int(x)  # Типизация
+    def __init__(self, x, y, z: int, color, material):
+        self.x = int(x)  # неявная типизация
         self.y = y
         self.z = z
         self.color = self._validate_color(color)
         self._material = material  # Используем приватный атрибут для material
         Shape.count += 1  # Увеличиваем атрибут класса
 
-    # Приватный метод "_" перед именем метода
+    # приватный метод "_" перед именем метода
     def _validate_color(self, value):
         if not isinstance(value, str):
             raise ValueError('Цвет должен быть строкой')
@@ -22,6 +22,12 @@ class Shape:
 
     def get_basic_point(self):
         return {'x': self.x, 'y': self.y, 'z': self.z}
+
+    def get_nature_material(self) -> str:
+        if self._material in ['steel', 'cooper', 'aluminium']:
+            return 'metal'
+        else:
+            return 'unknown'
 
     # Геттер
     @property
@@ -33,7 +39,7 @@ class Shape:
     def material(self, value):
         if not isinstance(value, str):
             raise ValueError('Материал задается строкой')
-        self._material = value  # Устанавливаем значение для приватного атрибута
+        self._material = value  # устанавливаем значение для приватного атрибута
 
     # Представление
     def __str__(self):
@@ -47,9 +53,6 @@ class Cylinder(Shape):
         self.radius = radius
         self.height = height
 
-    # def __str__(self):
-    #     return super().__str__()
-
     # переопределение метода
     def get_basic_point(self):
         return {'x': self.x, 'y': self.y}
@@ -60,27 +63,37 @@ class Cylinder(Shape):
     def cylinder_volume(self):
         return pow(self.radius, 2) * math.pi * self.height
 
+    def get_nature_material(self) -> str:
+        if self._material == 'wood':
+            return 'wood'
+        else:
+            return 'metal'
+
 
 # создание класса Shape
 shape = Shape(8, 7, 15, 'red', 'wood')
 print(shape)
-print(shape.get_basic_point())
 
-# создание экземпляра класса Cylinder
-cylinder = Cylinder(5, 5, 3, 'blue', 'steel')
-cylinder.increase_count() # метод базового класса, не реализован в наследнике
-print(cylinder.get_basic_point())
-print(cylinder)
+shape = Cylinder(5, 5, 3, 'blue', 'steel')
+print(shape.__dir__())
 
-try:
-    cylinder.material = 15
-
-    print(cylinder)
-
-    print(f'Объем цилиндра равен: {cylinder.cylinder_volume()}')
-except Exception as e:
-    print(f'Ошибка: {e}')
-
-cylinder1 = Cylinder(5, 8, 3, 'blue', 'steel')
-print(cylinder1)
-print(f'Объем цилиндра #2 равен: {cylinder.cylinder_volume()}')
+# print(shape.get_basic_point())
+#
+# # создание экземпляра класса Cylinder
+# cylinder = Cylinder(5, 5, 3, 'blue', 'steel')
+# cylinder.increase_count() # метод базового класса, не реализован в наследнике
+# print(cylinder.get_basic_point())
+# print(cylinder)
+#
+# try:
+#     cylinder.material = 15
+#
+#     print(cylinder)
+#
+#     print(f'Объем цилиндра равен: {cylinder.cylinder_volume()}')
+# except Exception as e:
+#     print(f'Ошибка: {e}')
+#
+# cylinder1 = Cylinder(5, 8, 3, 'blue', 'steel')
+# print(cylinder1)
+# print(f'Объем цилиндра #2 равен: {cylinder.cylinder_volume()}')
