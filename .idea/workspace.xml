@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69a9968-6731-4f4d-a533-8dde82e05d28" name="Changes" comment="fouth">
-      <change afterPath="$PROJECT_DIR$/DependingInvNew.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritanceNew.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SOLID.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SOLID.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c69a9968-6731-4f4d-a533-8dde82e05d28" name="Changes" comment="fouth//*">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/interfaces.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependingInv.py" beforeDir="false" afterPath="$PROJECT_DIR$/DependingInv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DependingInvNew.py" beforeDir="false" afterPath="$PROJECT_DIR$/DependingInvNew.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +39,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/shultzMAN87/SOLID.git&quot;,
-    &quot;accountId&quot;: &quot;145529d4-02ff-4a08-aff1-30417193c3cf&quot;
+    &quot;url&quot;: &quot;https://github.com/shultzMAN87/SOLID&quot;,
+    &quot;accountId&quot;: &quot;0c829b36-6386-499e-b629-9832bbc9177d&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -110,7 +106,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
       </set>
     </attachedChunks>
   </component>
@@ -195,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719739971666</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fouth//*">
+      <option name="closed" value="true" />
+      <created>1721112694392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1721112694392</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,7 +207,8 @@
     <MESSAGE value="second" />
     <MESSAGE value="third" />
     <MESSAGE value="fouth" />
-    <option name="LAST_COMMIT_MESSAGE" value="fouth" />
+    <MESSAGE value="fouth//*" />
+    <option name="LAST_COMMIT_MESSAGE" value="fouth//*" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
